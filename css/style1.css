@@ -1,4 +1,5 @@
-/* International Text Styles */
+/*  yaha pa International Text Styles kiya h maina */
+/* ab nhi kar rha ma */
 .arabic-italic {
     font-family: 'Traditional Arabic', Arial, sans-serif;
     font-style: italic;
@@ -50,7 +51,7 @@
     font-style: italic;
   }
   
-  /* Decorative Text Styles */
+  /*  yaha pa Decorative Text Styles ki h maina */
   .vintage-bold {
     font-family: 'Old Standard TT', serif;
     font-weight: bold;

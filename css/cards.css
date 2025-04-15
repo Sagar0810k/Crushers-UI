@@ -1,6 +1,6 @@
-/* cards.css - Styles specifically for card components */
+/*  Styles yaha pa card components  ka liya h*/
 
-/* Define notification colors (can be here or in main.css :root) */
+/* yaha pa notification colors define kiya h */
 :root {
     --success-color: #28a745; --success-bg: rgba(40, 167, 69, 0.1);
     --error-color: #dc3545;   --error-bg: rgba(220, 53, 69, 0.1);
@@ -8,7 +8,7 @@
     --info-color: #17a2b8;    --info-bg: rgba(23, 162, 184, 0.1);
   }
   
-  /* --- Base Card Styles --- */
+  /* --- ya base card ki styles h --- */
   .card {
     background: var(--card-bg);
     border-radius: 8px;
@@ -53,12 +53,12 @@
   .text-center { text-align: center; }
   .text-secondary { color: var(--text-secondary); font-size: 0.9rem; }
   
-  /* --- Specific Card Type Styles --- */
+  /* yaha pa  Specific Card Type Styles ka h */
   
-  /* 1. Basic Card */
-  /* .card-basic doesn't need extra CSS if covered by base */
+  /* phla basic card h  */
   
-  /* 2. Image Card (Top) */
+  
+  /* Dusra Image Card (Top) ka h */
   .card-image-top .card-img-top {
     width: 100%;
     height: auto; /* Maintain aspect ratio */
@@ -70,7 +70,7 @@
     /* border-top-right-radius: calc(8px - 1px); */
   }
   
-  /* 3. Profile Card */
+  /* third profile card ka h */
   .card-profile { align-items: center; } /* Center content */
   .card-profile-header {
     padding-top: 20px;
@@ -98,7 +98,7 @@
     padding-top: 60px; /* Space for overlapped avatar */
   }
   
-  /* 4. Product Card */
+  /* Fourth product card ka h */
   .card-product .card-img-top { /* Shares style with card-image-top */
     width: 100%; height: auto; max-height: 250px; object-fit: cover; display: block;
   }
@@ -116,7 +116,7 @@
     font-size: 0.85rem;
   }
   
-  /* 5. Card with Footer Actions */
+  /* Fifth Card with Footer Actions ka h */
   .card-footer-actions {
     display: flex;
     justify-content: flex-end; /* Align items to the right */
@@ -135,7 +135,7 @@
     text-decoration: underline;
   }
   
-  /* 6. Horizontal Card */
+  /* Sixth Horizontal Card ka h */
   .card-horizontal {
     flex-direction: row; /* Override base card direction */
     align-items: stretch; /* Stretch items vertically */
@@ -155,7 +155,7 @@
     padding: 16px; /* Adjust padding */
   }
   
-  /* 7. Icon Header Card */
+  /* Seventh Icon Header Card ka h */
   .card-header-icon {
     display: flex;
     align-items: center;
@@ -171,7 +171,7 @@
     margin: 0; /* Remove default margin */
   }
   
-  /* 8. Notification Card */
+  /* Eight  Notification Card ka h */
   .card-notification {
     border-left-width: 5px; /* Thick left border */
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
@@ -205,7 +205,7 @@
   .card-info .card-title { color: var(--info-color); }
   
   
-  /* 9. Pricing Tier Card */
+  /* Ninth Pricing Tier Card ka h */
   .card-pricing .card-header { border-bottom: none; }
   .card-pricing .text-center { text-align: center; }
   .card-price {
@@ -235,7 +235,7 @@
   .feature-list li:last-child { border-bottom: none; }
   .card-pricing .card-footer { border-top: none; padding: 20px; }
   
-  /* 10. Testimonial Card */
+  /* tenth Testimonial Card ka h */
   .card-testimonial { text-align: center; }
   .testimonial-quote {
     font-style: italic;
@@ -268,7 +268,7 @@
   .author-title { font-size: 0.85rem; color: var(--text-secondary); }
   
   
-  /* 11. Stats Card */
+  /* Eleven Stats Card ka h */
   .card-stats .card-body {
     display: flex;
     align-items: center;
@@ -294,8 +294,8 @@
     margin: 0;
   }
   
-  /* 12. Glassmorphism Card */
-  /* Special preview background for demo */
+  /* Twelve  Glassmorphism Card ka h */
+  /* Special preview background ya demo ka liya h */
   .component-card-glass-preview .component-preview {
    background: url('https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60') center/cover; /* Example gradient */
    border-radius: 8px; /* Match preview container */
@@ -310,7 +310,7 @@
     color: #ffffff; /* Force light text */
   }
   
-  /* Ensure light text in light mode too */
+  /*  light text light mood ma hona chahiye */
   [data-theme="light"] .card-glass {
     background: rgba(255, 255, 255, 0.5); /* Lighter bg in light mode */
     border: 1px solid rgba(255, 255, 255, 0.6);

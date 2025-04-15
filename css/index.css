@@ -1,3 +1,4 @@
+/* ya sagar Singh Rawat na banya h sabsa jada kaam maina kiya h */
 *{
     margin: 0;
     padding: 0;
@@ -193,7 +194,7 @@ main{
     z-index: 0;
 }
 
-/* RESPONSIVE STYLES */
+/* yaha pa  RESPONSIVE STYLES  ki h maina */
 
 @media (max-width: 1024px) {
     header {
@@ -298,3 +299,4 @@ main{
         font-size: 0.9rem;
     }
 }
+/* saurabh thoda kaam ho kar da isma */

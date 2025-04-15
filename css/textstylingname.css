@@ -1,4 +1,4 @@
-/* General Styles */
+/*  yaha pa General Styles ki h  */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -37,7 +37,7 @@ main {
     padding-bottom: 40px;
 }
 
-/* Style Cards */
+/* ya  Style Cards ka section h */
 .style-card {
     background-color: white;
     border-radius: 8px;
@@ -56,7 +56,7 @@ main {
     border-bottom: 1px solid #eee;
 }
 
-/* Button Styles */
+/*  ya Button Styles ka h */
 .show-code {
     background-color: #3498db;
     color: white;
@@ -73,7 +73,7 @@ main {
     background-color: #2980b9;
 }
 
-/* Code Container */
+/* ya  Code Container ka section h */
 .code-container {
     display: none;
     background-color: #f8f9fa;
@@ -100,7 +100,7 @@ code {
     color: #0d6efd;
 }
 
-/* Text Styles - These should match your HTML classes */
+/* Text Styles - html classses match honi chahiya */
 .arabic-italic {
     font-family: 'Traditional Arabic', Arial, sans-serif;
     font-style: italic;
@@ -331,12 +331,12 @@ code {
     padding: 5px;
 }
 
-/* JavaScript Interaction Styles */
+/* JavaScript Interaction Styles  ki h yaha pa */
 .show-code.active + .code-container {
     display: block;
 }
 
-/* Responsive Design */
+/* Responsive Design ka section h */
 @media (max-width: 768px) {
     main {
         grid-template-columns: 1fr;

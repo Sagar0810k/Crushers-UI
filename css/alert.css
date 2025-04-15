@@ -1,4 +1,6 @@
-/* Alert Base Styles */
+/*ya Rahul Singh Bhandari na banya h*/
+/* ya alert base sytle h thik h */
+
 .alert {
     padding: 12px 16px;
     border-radius: 8px;
@@ -12,7 +14,7 @@
     flex-shrink: 0;
   }
   
-  /* Alert Variants */
+  /*ya  Alert Variants ka h */
   .alert-basic {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid var(--border-color);
@@ -186,7 +188,7 @@
     font-weight: bold;
   }
   
-  /* Animations */
+  /* yaha pa maina animations daali h*/
   @keyframes pulse {
     0% { box-shadow: 0 0 0 0 rgba(156, 39, 176, 0.7); }
     70% { box-shadow: 0 0 0 10px rgba(156, 39, 176, 0); }

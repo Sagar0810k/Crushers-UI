@@ -1,3 +1,4 @@
+/* saurabh Joshi na Banya h koe credit nhi la sakhta mara */ 
 .component-overview {
     margin-bottom: 60px;
   }
@@ -6,18 +7,6 @@
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr;
-  }
-  
-  @media (min-width: 768px) {
-    .component-links-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .component-links-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
   }
   
   .component-link-card {
@@ -45,4 +34,29 @@
     color: var(--text-secondary);
     font-size: 0.9rem;
   }
+  @media (min-width: 768px) {
+    .component-links-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .component-links-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width: 768px) {
+    .component-links-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .component-links-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  /* bhai logo maina bahut kaam kar diya h */
+  
+
   

@@ -1,4 +1,5 @@
-/* Base Styling */
+/* AI Specialist bhaiyo */
+/*yaha  Base Styling kari h bhaiyo */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -10,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* Form Container */
+/*  yaha pa Form Container  kara h bhaiyo*/
 .form-container {
   background: white;
   padding: 2rem;
@@ -21,13 +22,13 @@ body {
   box-sizing: border-box;
 }
 
-/* Headings */
+/*  yaha pa Headings kari h bhaiyo */
 h2 {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-/* Input Fields */
+/*  yaha pa Input Fields kari h bhaiyo */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -47,7 +48,7 @@ input:focus {
   border-color: #00acc1;
 }
 
-/* Checkbox + Label Styling */
+/*  yaha pa Checkbox + Label Styling ki h  */
 .checkbox-group {
   display: flex;
   align-items: center;
@@ -59,7 +60,7 @@ input:focus {
   accent-color: #00acc1;
 }
 
-/* Submit Button */
+/* ya  Submit Button ka h */
 button[type="submit"] {
   width: 100%;
   background-color: #00acc1;
@@ -76,7 +77,7 @@ button[type="submit"]:hover {
   background-color: #00838f;
 }
 
-/* Social Buttons */
+/* ya  Social Buttons ka h */
 .social-buttons {
   margin: 1rem 0;
   text-align: center;
@@ -100,7 +101,7 @@ button[type="submit"]:hover {
 .linkedin-btn { background: #0a66c2; color: white; }
 .github-btn { background: #333; color: white; }
 
-/* Footer Links */
+/*  ya Footer Links ka h */
 .footer-links {
   text-align: center;
   margin-top: 1rem;
@@ -112,7 +113,7 @@ button[type="submit"]:hover {
   font-weight: bold;
 }
 
-/* Animated Form Effect */
+/* ya Animated Form Effect ka h */
 .animated-form {
   animation: slideUp 0.6s ease;
 }
@@ -128,7 +129,7 @@ button[type="submit"]:hover {
   }
 }
 
-/* Wizard Progress Bar */
+/*  ya Wizard Progress Bar h */
 .progress-bar {
   display: flex;
   justify-content: space-between;
@@ -146,3 +147,4 @@ button[type="submit"]:hover {
 .progress-bar div.active {
   background-color: #00acc1;
 }
+/* sagar bhai code test kar lana */

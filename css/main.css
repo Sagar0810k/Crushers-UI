@@ -1,3 +1,4 @@
+/* Rahul na banya h Ab nhi karunga ma kuch */
 :root {
     /* Light theme variables */
     --bg-color-light: #f8f9fa;
@@ -10,7 +11,7 @@
     --dark-color-light: #212529;
     --code-bg-light: #f5f5f5;
   
-    /* Dark theme variables */
+    /*  ya Dark theme variables ka h */
     --bg-color-dark: #121212;
     --card-bg-dark: #1e1e1e;
     --text-color-dark: #f8f9fa;
@@ -22,7 +23,7 @@
     --code-bg-dark: #2d2d2d;
   }
   
-  /* Default to dark theme */
+  /* yaha pa  dark theme daali h */
   :root {
     --bg-color: var(--bg-color-dark);
     --card-bg: var(--card-bg-dark);
@@ -35,7 +36,7 @@
     --code-bg: var(--code-bg-dark);
   }
   
-  /* Light theme */
+  /*  yaha pa Light theme daali h */
   [data-theme="light"] {
     --bg-color: var(--bg-color-light);
     --card-bg: var(--card-bg-light);

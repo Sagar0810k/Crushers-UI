@@ -1,4 +1,4 @@
-/* Base modal styles */
+/* Sagar tu kar lana isko */
 .modal {
     display: none;
     position: fixed;
@@ -53,7 +53,7 @@
     color: var(--text-secondary);
   }
   
-  /* Modal Variations */
+  /* yaha pa  Modal Variations karna sagar tu */
   .modal-centered .modal-content {
     max-width: 400px;
     margin: auto;
@@ -119,7 +119,7 @@
     padding: 0;
   }
   
-  /* Buttons */
+  /* sagar yaha pa  Buttons ka h */
   .btn {
     padding: 8px 16px;
     border-radius: 6px;
@@ -201,13 +201,13 @@
     color: var(--text-color);
   }
   
-  /* Alert Icon */
+  /* ya  Alert Icon ka h */
   .alert-icon {
     margin-bottom: 16px;
     color: var(--purple-color);
   }
   
-  /* Action List */
+  /*  yaha pa Action List  h*/
   .action-list {
     display: flex;
     flex-direction: column;
@@ -247,7 +247,7 @@
     background: rgba(156, 39, 176, 0.1);
   }
   
-  /* Modal Actions */
+  /*  ya Modal Actions ka h */
   .modal-actions {
     display: flex;
     justify-content: flex-end;
@@ -255,7 +255,7 @@
     margin-top: 24px;
   }
   
-  /* Animations */
+  /*  yaha Animations karna */
   @keyframes modalFadeIn {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -271,7 +271,7 @@
     to { transform: translateY(0); }
   }
   
-  /* Modal Trigger Button */
+  /*ya  Modal Trigger Button ka h */
   .modal-trigger {
     padding: 10px 20px;
     background: var(--purple-color);

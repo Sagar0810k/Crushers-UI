@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- Navbar Toggler Functionality ---
+
     const navbarTogglers = document.querySelectorAll('.navbar-toggler');
     navbarTogglers.forEach(toggler => {
       toggler.addEventListener('click', () => {
@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   
-    // --- Close mobile menu if clicking outside ---
     document.addEventListener('click', (event) => {
       const openMenus = document.querySelectorAll('.navbar-collapse.active');
       openMenus.forEach(menu => {
@@ -28,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   
-    // --- Responsive Fix: Remove mobile 'active' class on desktop resize ---
     const resetMobileMenus = () => {
       if (window.innerWidth > 768) {
         document.querySelectorAll('.navbar-collapse.active').forEach(menu => {
@@ -39,9 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
     window.addEventListener('resize', resetMobileMenus);
-    resetMobileMenus(); // Initial check on load
-  
-    // --- Theme Toggle Functionality ---
+    resetMobileMenus(); 
+
+    
     const themeToggleButton = document.getElementById('theme-toggle-btn');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
@@ -70,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    // --- Transparent Navbar Scroll Effect ---
     const transparentNavs = document.querySelectorAll('.navbar-transparent');
     function handleScroll() {
       transparentNavs.forEach(nav => {
@@ -82,9 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
+    handleScroll(); 
   
-    // --- Dropdown Accessibility ---
+    
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     dropdownToggles.forEach(toggle => {
       const dropdownMenu = toggle.nextElementSibling;
@@ -95,41 +92,20 @@ document.addEventListener('DOMContentLoaded', () => {
   
       toggle.addEventListener('blur', (e) => {
         if (!toggle.parentElement.contains(e.relatedTarget)) {
-          // Optional: dropdownMenu.style.display = 'none';
+          
         }
       });
   
       if (lastItem) {
         lastItem.addEventListener('blur', (e) => {
           if (!toggle.parentElement.contains(e.relatedTarget)) {
-            // Optional: dropdownMenu.style.display = 'none';
+            
           }
         });
       }
     });
   
-    // --- Code Snippet Tabs ---
-    const tabGroups = document.querySelectorAll('.code-tabs');
-    tabGroups.forEach(group => {
-      const buttons = group.querySelectorAll('.tab-btn');
-      const contents = group.querySelectorAll('.code-content');
-      const copyBtn = group.querySelector('.copy-btn');
-  
-      buttons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          const type = btn.dataset.tab;
-          buttons.forEach(b => b.classList.remove('active'));
-          contents.forEach(c => c.classList.remove('active'));
-  
-          btn.classList.add('active');
-          const activeContent = group.querySelector(`.code-content[data-content="${type}"]`);
-          activeContent?.classList.add('active');
-          if (copyBtn) copyBtn.dataset.type = type;
-        });
-      });
-    });
-  
-    // --- Copy Code to Clipboard ---
+    
     const copyBtns = document.querySelectorAll('.copy-btn');
     copyBtns.forEach(btn => {
       const copyIcon = btn.querySelector('.copy-icon');

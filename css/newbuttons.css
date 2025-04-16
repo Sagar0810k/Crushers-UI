@@ -206,7 +206,7 @@
 
 .btn-skew:hover {
   background: linear-gradient(45deg, var(--purple-dark), #5e35b1); 
-  transform: skewX(-15deg) scale(1.05); /* Add a subtle scale effect 
+  transform: skewX(-15deg) scale(1.05); /* Add a subtle scale effect */
 }
 
 .btn-social {
@@ -242,8 +242,3 @@
 /* mara kaam ho gya ab */
 
 
-/* Card Styles (Example - if you had specific card styles here) */
-/* .card { ... } */
-/* .simple-card { ... } */
-/* .card-title { ... } */
-/* .card-text { ... } */

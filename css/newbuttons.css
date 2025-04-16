@@ -7,13 +7,13 @@
   padding: 10px 24px;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 9999px; /* Makes it a pill shape */
+  border-radius: 9999px; 
   cursor: pointer;
   transition: all 0.3s ease;
   border: none;
   outline: none;
-  text-decoration: none; /* Ensure no underlines from links */
-  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+  text-decoration: none; 
+  -webkit-tap-highlight-color: transparent; 
 }
 
 /* === yaha pa ORIGINAL BUTTON STYLES ka h === */
@@ -93,7 +93,7 @@
   background: var(--purple-dark);
 }
 
-/* === ADDED BUTTON STYLES === */
+/* ===  BUTTON STYLES add kardiya h yaha === */
 
 .btn-neon {
   background-color: var(--purple-color);
@@ -206,7 +206,7 @@
 
 .btn-skew:hover {
   background: linear-gradient(45deg, var(--purple-dark), #5e35b1); 
-  transform: skewX(-15deg) scale(1.05); /* Add a subtle scale effect */
+  transform: skewX(-15deg) scale(1.05); /*  effect add kardiya h yaha */
 }
 
 .btn-social {

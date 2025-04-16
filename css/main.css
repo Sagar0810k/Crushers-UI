@@ -107,17 +107,7 @@
     gap: 24px;
   }
   
-  @media (min-width: 768px) {
-    .component-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .component-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
+ 
   
   .component-card {
     background-color: var(--card-bg);
@@ -310,6 +300,17 @@
     display: block;
   }
 
+ @media (min-width: 768px) {
+    .component-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .component-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
   @import url(alert.css);
   @import url(cards.css);
   @import url(components.css);

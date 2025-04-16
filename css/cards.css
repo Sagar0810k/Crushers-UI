@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     width: 100%; /* Ensure card takes full width of grid cell */
-    max-width: 350px; /* Optional: max width for cards */
+    max-width: 350px; /* Optional: */
     margin: 0 auto; /* Center card if grid cell is wider */
   }
   
@@ -30,9 +30,9 @@
   
   .card-body {
     padding: 20px;
-    flex-grow: 1; /* Allows body to fill available space */
+    flex-grow: 1; /* space bharne k kaam aayega */
   }
-  .card-body p:last-child { margin-bottom: 0; } /* Remove extra margin */
+  .card-body p:last-child { margin-bottom: 0; } /* extra margin hata deta  h*/
   
   .card-footer {
     padding: 12px 20px;
@@ -66,17 +66,14 @@
     max-height: 200px; /* Optional max height */
     object-fit: cover; /* Cover area nicely */
     display: block;
-    /* Adjust border radius if card radius is not 0 */
-    /* border-top-left-radius: calc(8px - 1px); */
-    /* border-top-right-radius: calc(8px - 1px); */
   }
   
   /* third profile card ka h */
   .card-profile { align-items: center; } /* Center content */
   .card-profile-header {
     padding-top: 20px;
-    border-bottom: none; /* Remove header border */
-    background: linear-gradient(135deg, var(--purple-color), var(--purple-dark)); /* Example background */
+    border-bottom: none; /* header border hataya h */
+    background: linear-gradient(135deg, var(--purple-color), var(--purple-dark)); /* background example*/
     height: 80px; /* Header height */
     width: 100%;
   }
@@ -87,20 +84,20 @@
     border: 4px solid var(--card-bg); /* Use card background color */
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     margin-top: -50px; /* Overlap header */
-    position: relative; /* Needed if using z-index */
-    z-index: 1; /* Make sure avatar is above potential background elements */
-    background-color: var(--card-bg); /* Ensure avatar bg matches card */
+    position: relative; 
+    z-index: 1; 
+    background-color: var(--card-bg); 
   }
-  .card-avatar.small { /* For testimonial */
+  .card-avatar.small { 
     width: 50px; height: 50px;
     border-width: 2px;
   }
   .card-profile .card-body {
-    padding-top: 60px; /* Space for overlapped avatar */
+    padding-top: 60px; 
   }
   
   /* Fourth product card ka h */
-  .card-product .card-img-top { /* Shares style with card-image-top */
+  .card-product .card-img-top { 
     width: 100%; height: auto; max-height: 250px; object-fit: cover; display: block;
   }
   .card-product-price {
@@ -138,9 +135,9 @@
   
   /* Sixth Horizontal Card ka h */
   .card-horizontal {
-    flex-direction: row; /* Override base card direction */
-    align-items: stretch; /* Stretch items vertically */
-    max-width: none; /* Allow horizontal card to be wider */
+    flex-direction: row; 
+    align-items: stretch; 
+    max-width: none;
   }
   .card-horizontal .card-img-left {
     width: 130px; /* Fixed width for image */
@@ -148,11 +145,8 @@
     object-fit: cover; /* Cover the area */
     flex-shrink: 0; /* Prevent image shrinking */
     border-right: 1px solid var(--border-color);
-    /* border-top-left-radius: calc(8px - 1px); */
-    /* border-bottom-left-radius: calc(8px - 1px); */
   }
   .card-horizontal .card-body {
-    /* border-left: 1px solid var(--border-color); Removed, border is on image */
     padding: 16px; /* Adjust padding */
   }
   
@@ -303,12 +297,12 @@
   }
   
   .card-glass {
-    background: rgba(255, 255, 255, 0.15); /* Base transparency */
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px); /* Safari */
+    -webkit-backdrop-filter: blur(12px); 
     border: 1px solid rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); /* Subtle shadow */
-    color: #ffffff; /* Force light text */
+    color: #ffffff; 
   }
   
   /*  light text light mood ma hona chahiye */

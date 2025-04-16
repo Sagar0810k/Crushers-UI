@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Modal triggers
+    // triggers karne ko rakha h yaha 
     const triggers = document.querySelectorAll('.modal-trigger');
     
     triggers.forEach(trigger => {
@@ -7,38 +7,38 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalId = this.getAttribute('data-modal');
         const modal = document.getElementById(modalId);
         modal.classList.add('modal-open');
-        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+        document.body.style.overflow = 'hidden'; //  scrolling ni hone deta h 
       });
     });
   
-    // Close buttons
     const closeButtons = document.querySelectorAll('.modal-close');
     
     closeButtons.forEach(button => {
       button.addEventListener('click', function() {
         this.closest('.modal').classList.remove('modal-open');
-        document.body.style.overflow = ''; // Re-enable scrolling
+        document.body.style.overflow = ''; // scrolling allow k liye 
       });
     });
   
-    // Close when clicking outside
+    
     const modals = document.querySelectorAll('.modal');
     
     modals.forEach(modal => {
       modal.addEventListener('click', function(e) {
         if (e.target === this) {
           this.classList.remove('modal-open');
-          document.body.style.overflow = ''; // Re-enable scrolling
+          document.body.style.overflow = ''; 
         }
       });
     });
   
-    // Close with Escape key
+    //  Escape key se bhi exit diya h 
+    
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
         document.querySelectorAll('.modal.modal-open').forEach(modal => {
           modal.classList.remove('modal-open');
-          document.body.style.overflow = ''; // Re-enable scrolling
+          document.body.style.overflow = ''; 
         });
       }
     });

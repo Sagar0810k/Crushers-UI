@@ -34,6 +34,7 @@
     color: var(--text-secondary);
     font-size: 0.9rem;
   }
+/*kardena re issko responsive */
   @media (min-width: 768px) {
     .component-links-grid {
       grid-template-columns: repeat(2, 1fr);
